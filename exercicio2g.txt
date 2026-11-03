@@ -1,0 +1,23 @@
+Exercício 2G
+Erro Tipo II (β) e Poder do Teste (1 - β)
+
+    Código utilizado no R:
+var0 <- 0.050^2
+var1 <- 0.030^2
+valor_critico <- qchisq(0.05, df = 14)
+beta <- 1 - pchisq(valor_critico * (var0 / var1), df = 14)
+poder <- 1 - beta
+
+    Saída correspondente do R:
+Probabilidade de Erro Tipo II (β): 0.1956
+Poder do Teste (1 - β): 0.8044
+
+    Conclusão:
+Considerando o verdadeiro desvio padrão populacional σ = 0,030 mm, a probabilidade 
+de cometer um erro do Tipo II (β) é de 19,56%. Isso significa que há 19,56% de chance 
+de o teste falhar em rejeitar a hipótese nula quando a variabilidade dos diâmetros 
+na verdade diminuiu para 0,030 mm.
+
+Por consequência, o poder do teste (1 - β) é de 80,44%, o que indica uma alta 
+capacidade do teste estatístico em detectar corretamente a redução na variabilidade 
+dos diâmetros dos rebites perante essa hipótese alternativa.

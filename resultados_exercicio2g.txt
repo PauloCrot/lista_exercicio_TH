@@ -1,0 +1,10 @@
+ Código R 
+var0 <- 0.050^2
+var1 <- 0.030^2
+valor_critico <- qchisq(0.05, df = 14)
+beta <- 1 - pchisq(valor_critico * (var0 / var1), df = 14)
+poder <- 1 - beta
+
+ Output R 
+Probabilidade de Erro Tipo II (β): 0.1956 
+Poder do Teste (1 - β): 0.8044 

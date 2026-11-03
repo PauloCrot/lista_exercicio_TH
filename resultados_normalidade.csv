@@ -1,0 +1,6 @@
+"Teste","Estatistica","P_valor","Decisao"
+"Shapiro–Wilk",0.9685,0.8349,"Não rejeita H0 (Normal)"
+"Anderson–Darling",0.2161,0.8099,"Não rejeita H0 (Normal)"
+"Lilliefors",0.1227,0.7868,"Não rejeita H0 (Normal)"
+"Cramér–von Mises",0.0335,0.7783,"Não rejeita H0 (Normal)"
+"Shapiro–Francia",0.9783,0.9096,"Não rejeita H0 (Normal)"

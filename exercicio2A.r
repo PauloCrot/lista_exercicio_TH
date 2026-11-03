@@ -3,6 +3,7 @@ diametros <- c(8.01, 7.99, 8.03, 8.02, 7.98, 8.00, 8.04, 8.01,
 
 
 library(car)
+qqPlot(diametros, main = "Q-Q Plot dos Diâmetros")
 
 par(mfrow = c(1, 2))
 

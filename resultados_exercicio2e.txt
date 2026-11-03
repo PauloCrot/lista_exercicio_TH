@@ -1,0 +1,5 @@
+ RESULTADOS DO TESTE (ITEM E) 
+Valor Crítico (qchisq): 6.5706 
+Região Crítica (RC): Valores de X^2 < 6.5706 
+Estatística Observada: 2.3893 
+Pertence à Região Crítica? SIM (Rejeita H0) 

@@ -1,0 +1,25 @@
+Exercício 2F 
+Cálculo do P-valor e Conclusão
+
+    Cálculo do P-valor:
+Como o teste é unilateral à esquerda (H1: \sigma^2 < 0,0025), o p-valor 
+é a probabilidade acumulada à esquerda da estatística observada (X^2_obs = 2,3893):
+
+p-valor = P(X^2_14 <= 2,3893) = pchisq(2.3893, df = 14) = 0,000118 (ou 0,0118%)
+
+
+    Representação Gráfica:
+No gráfico da densidade qui-quadrado (com 14 graus de liberdade), 
+a estatística observada é marcada em X^2 = 2,39 e a área pintada 
+corresponde à região à esquerda desse ponto (de 0 até 2,39).
+
+
+    Conclusão:
+Considerando que a suposição de normalidade dos diâmetros foi previamente 
+validada e dada como plausível (Item C), e como o p-valor obtido 
+(0,000118) é estritamente menor do que o nível de significância de 5% 
+(\alpha = 0,05), REJEITA-SE a hipótese nula (H0).
+
+Existe evidência estatística suficiente para concluir que a variância 
+populacional dos diâmetros dos rebites é estritamente inferior a 
+(0,050)² mm² (isto é, 0,0025 mm²).

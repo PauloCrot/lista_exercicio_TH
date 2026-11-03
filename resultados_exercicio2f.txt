@@ -1,0 +1,5 @@
+ RESULTADOS DO TESTE (ITEM F) 
+Estatística Observada (X^2_obs): 2.3893 
+P-valor (pchisq): 0.00024452 
+Nível de Significância (alpha): 0.05
+Decisão: Rejeita H0 

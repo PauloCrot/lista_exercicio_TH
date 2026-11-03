@@ -1,20 +1,20 @@
 Exercício 2E 
 Valor Crítico, Estatística Observada e Região Crítica
 
-1. Valor Crítico:
+ Valor Crítico:
 Utilizando a função qchisq(0.05, 14) no R, obtemos o valor crítico:
 X^2_crit = 6,5706
 
-2. Região Crítica (RC):
+ Região Crítica (RC):
 Como o teste é unilateral à esquerda (H1: \sigma^2 < 0,0025), a região 
 crítica é definida por todos os valores estritamente menores que o valor crítico:
 RC = { X^2 ∈ R | X^2 < 6,5706 }
 
-3. Estatística Observada (X^2_obs):
+ Estatística Observada (X^2_obs):
 Calculada a partir da variância amostral dos dados:
 X^2_obs = [ (15 - 1) * S² ] / 0,0025 = 2,3893
 
-4. Decisão:
+ Decisão:
 Como X^2_obs = 2,3893 é menor que 6,5706, a estatística observada pertence 
 à Região Crítica (2,3893 ∈ RC). Portanto, REJEITA-SE H0 ao nível de 
 significância de 5%.

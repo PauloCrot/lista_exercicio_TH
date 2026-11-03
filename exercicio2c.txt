@@ -1,0 +1,21 @@
+Avaliação da Suposição de Normalidade:
+
+A suposição de normalidade para a variável dos diâmetros é altamente 
+plausível. Esta conclusão fundamenta-se em duas linhas de evidência 
+totalmente concordantes:
+
+1. Evidência Visual (Item A): O Boxplot revelou uma distribuição simétrica 
+dos dados em torno da mediana (~8,01 mm) e a total ausência de valores 
+atípicos (outliers). Além disso, os pontos no Q-Q Plot alinham-se 
+consistentemente com a reta diagonal de referência.
+
+2. Evidência Analítica (Item B): Os cinco testes rigorosos de aderência 
+(Shapiro-Wilk, Anderson-Darling, Lilliefors, Cramér-von Mises e 
+Shapiro-Francia) retornaram p-valores muito elevados (variando de 0,7783 
+a 0,9096). Como todos os p-valores são amplamente superiores ao nível 
+de significância estabelecido de 5% (\alpha = 0,05), falha-se em rejeitar 
+a hipótese nula (H_0).
+
+Portanto, tanto a análise exploratória quanto a inferência estatística 
+provam de forma unânime que os diâmetros dos rebites seguem uma 
+distribuição Normal.

@@ -1,0 +1,31 @@
+Exercício 2D - Formulação do Teste de Hipóteses
+
+1. Hipóteses do Teste (Unilateral à Esquerda)
+O objetivo é provar se a variância é estritamente menor que 
+o limite estabelecido. O valor de referência é:
+\sigma_0^2 = (0,050)² = 0,0025 mm²
+
+H0: \sigma^2 >= 0,0025 
+(A variância populacional é maior ou igual a 0,0025 mm²)
+
+H1: \sigma^2 < 0,0025  
+(A variância populacional é estritamente inferior a 0,0025 mm²)
+
+
+2. Estatística de Teste
+Como validamos a normalidade dos dados no item C, usamos a 
+estatística baseada na distribuição Qui-quadrado (\chi^2). 
+Expressa em função da variância amostral (S²), a fórmula é:
+
+\chi^2_calc = [ (n - 1) * S² ] / 0,0025
+
+Onde:
+- n  = tamanho da amostra (quantidade de rebites)
+- S² = variância amostral calculada a partir dos dados
+
+
+3. Distribuição sob H0 e Graus de Liberdade
+Sob a suposição de que a hipótese nula (H0) é verdadeira, 
+a estatística de teste segue uma distribuição Qui-quadrado.
+
+Graus de liberdade (gl) = n - 1
